@@ -1,5 +1,3 @@
-// Copyright (c) 2019, MIS and contributors
-// For license information, please see license.txt
 
 frappe.ui.form.on('Request Pesan Ruang', {
 	refresh: function(frm) {
@@ -98,4 +96,3 @@ frappe.ui.form.on("Request Pesan Ruang", "booking_end", function(frm, cdt, cdn) 
 		frm.set_value('harga', harga_total)
 	}
 });
-

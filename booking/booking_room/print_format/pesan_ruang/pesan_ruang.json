@@ -1,0 +1,22 @@
+{
+ "align_labels_right": 0, 
+ "creation": "2019-04-13 10:54:13.976276", 
+ "custom_format": 0, 
+ "disabled": 0, 
+ "doc_type": "Pesan Ruang", 
+ "docstatus": 0, 
+ "doctype": "Print Format", 
+ "font": "Arial", 
+ "format_data": "[{\"fieldname\": \"print_heading_template\", \"fieldtype\": \"Custom HTML\", \"options\": \"<div class=\\\"print-heading\\\">\\t\\t\\t\\t<h2>Pesan Ruang<br><small>{{ doc.name }}</small>\\t\\t\\t\\t</h2></div>\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"naming_series\", \"label\": \"Naming Series\"}, {\"print_hide\": 0, \"fieldname\": \"id_member\", \"label\": \"ID Member\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"nama_member\", \"label\": \"Nama Member\"}, {\"print_hide\": 0, \"fieldname\": \"tipe_member\", \"label\": \"Tipe Member\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"nama_ruangan\", \"label\": \"Nama Ruang\"}, {\"print_hide\": 0, \"fieldname\": \"booking_start\", \"label\": \"Booking Start\"}, {\"print_hide\": 0, \"fieldname\": \"booking_end\", \"label\": \"Booking End\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"return_time\", \"label\": \"Return Time\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"fieldname\": \"keterangan\", \"label\": \"Keterangan\"}, {\"print_hide\": 0, \"fieldname\": \"harga\", \"label\": \"Harga\"}, {\"fieldtype\": \"Section Break\", \"label\": \"\"}, {\"fieldtype\": \"Column Break\"}, {\"print_hide\": 0, \"options\": \"Signed by,\\n\\n\\n\\nAuthorized Signatory\", \"fieldname\": \"_custom_html\", \"fieldtype\": \"HTML\", \"label\": \"Custom HTML\"}]", 
+ "idx": 0, 
+ "line_breaks": 0, 
+ "modified": "2019-04-13 11:31:43.924382", 
+ "modified_by": "Administrator", 
+ "module": "Booking Room", 
+ "name": "Pesan Ruang", 
+ "owner": "Administrator", 
+ "print_format_builder": 1, 
+ "print_format_type": "Server", 
+ "show_section_headings": 1, 
+ "standard": "Yes"
+}

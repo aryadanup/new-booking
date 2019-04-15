@@ -27,7 +27,7 @@ class RequestPesanRuang(Document):
 			pesan.keterangan = self.keterangan
 			pesan.nama_ruangan_ = self.nama_ruangan_
 			pesan.nama_gedung = self.nama_gedung
-			pesan.alSSamat_gedung = self.alamat_gedung
+			pesan.alamat_gedung = self.alamat_gedung
 			pesan.save()
 
 		elif (self.status_approve == "Yes" and self.docstatus == 1) :

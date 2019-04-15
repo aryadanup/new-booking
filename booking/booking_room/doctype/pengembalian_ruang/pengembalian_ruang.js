@@ -16,15 +16,22 @@ frappe.ui.form.on('Pengembalian Ruang', {
 				},
 				callback: function(r) {
 					if(r.message) {
-						
 					frm.set_value('nama_member', r.message.nama_member)
 
 					}
-					frm.refresh_field('harga')
-					frm.refresh_field('detail')
 				}
 
 			})
 		}
 	},
+});
+
+frappe.ui.form.on("Pengembalian Ruang", "refresh", function(frm) {
+    cur_frm.set_query("id_pesanan", function() {
+        return {
+            "filters": {
+                "workflow_state": "On Process"
+            }
+        };
+    });
 });

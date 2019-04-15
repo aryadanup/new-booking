@@ -13,5 +13,4 @@ class PengembalianRuang(Document):
 		pesan = frappe.get_doc("Pesan Ruang", self.id_pesanan)
 		pesan.return_time = self.waktu_kembali
 		pesan.save()
-		pesan.submit()
 	
